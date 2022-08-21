@@ -6,10 +6,20 @@ h1 {
 }
 .caixa1 {
   position:  absolute;
-  background: #336666;
+  background: #930069;
   color: #FFFFFF;
   width: 200px;
   height: 200px;
-  right: 0;
+  right: 0px;
   top: 0;
+}
+
+.caixa2 {
+  position: absolute;
+  background: #CC33CC;
+  color: #FFFFFF;
+  width: 200PX;
+  height: 200px;
+  right: 0px;
+  bottom: 0;
 }
