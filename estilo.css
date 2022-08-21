@@ -1,44 +1,65 @@
 body {
-  background: #FFFFFF;
+  background: #fafafa;
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
-  position:  absolute;
-  background: #0B2161;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 0px;
-  top: 0;
+    position: absolute;
+    background: #0B2161;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
 }
 
 .caixa2 {
-  position: absolute;
-  background: #08298A;
-  color: #FFFFFF;
-  width: 200PX;
-  height: 200px;
-  right: 205px;
-  bottom: 0;
+    position: absolute;
+    background: #08298A;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 205px;
+    bottom: 0;
 }
 
 .caixa3 {
-  position: absolute;
-  background: #0B173B;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  right: 0;
-  bottom: 205px;
+    position: absolute;
+    background: #0B243B;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 205px;
 }
-
 .menuPrincipal {
-  position: relative;
-  background: #5882FA;
-  width: 100%;
-  height: 120%;
-  top: 0;
-  color:#FFFFFF
+   position: relative;
+   background: #2E64FE;
+   width: 100%;
+   height: 45px;
+   top: 0;
+   left: 0;
+   color: #FFFFFF;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: 0%;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li a:hover {
+  background: rgb(157, 74, 212);
+  color: #FFFFFF;
 }
