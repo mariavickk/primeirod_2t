@@ -41,7 +41,7 @@ li a {
   text-transform: uppercase;
 }
 li a:hover {
-  background: rgb(157, 74, 212);
+  background: #2E9AFE;
   color: #FFFFFF;
 }
 .imgEstudo {
